@@ -4,8 +4,6 @@ import (
 	"bufio"
 	"compress/gzip"
 	"fmt"
-	"github.com/kardianos/osext"
-	"github.com/ops-class/test161"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -15,6 +13,9 @@ import (
 	"strings"
 	"syscall"
 	"time"
+
+	"github.com/jay1999ke/test161"
+	"github.com/kardianos/osext"
 )
 
 // 1 MB

@@ -1,9 +1,10 @@
 package test161
 
 import (
-	"github.com/ops-class/test161/expect"
 	"regexp"
 	"time"
+
+	"github.com/jay1999ke/test161/expect"
 )
 
 // Recv processes new sys161 output and restarts the progress timer

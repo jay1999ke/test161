@@ -62,7 +62,7 @@ Once you have Go installed, upgrading or installing `test161` is simple:
 
 [source,bash]
 ----
-go get -u github.com/ops-class/test161/test161
+go get -u github.com/jay1999ke/test161/test161
 ----
 
 === Configuration
@@ -390,7 +390,7 @@ Input and output can use https://golang.org/pkg/text/template/[Go's text templat
 to specify more complex text. The arguments and argument length are available in
 the text templates as `.Args` and `.ArgLen`, respectively. Custom functions are
 also provided; see the `funcMap` in
-https://github.com/ops-class/test161/blob/master/commands.go[commands.go]
+https://github.com/jay1999ke/test161/blob/master/commands.go[commands.go]
 for details.
 
 The following example illustrates how the `add` test's output can be determined
@@ -707,7 +707,7 @@ requests, evaluating these requests, and persisting test output and results.
 
 Our `test161-server` uses https://www.mongodb.com/[mongoDB] as its storage
 layer, which is also how it communicates with the
-https://github.com/ops-class/test161-web-ui[front-end]. The interface of the
+https://github.com/jay1999ke/test161-web-ui[front-end]. The interface of the
 back-end utility is less mature than the `test161` command line utility, mostly
 due to its audience.
 

@@ -5,9 +5,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/ops-class/test161"
-	"gopkg.in/mgo.v2"
-	yaml "gopkg.in/yaml.v2"
 	"io"
 	"io/ioutil"
 	"log"
@@ -16,6 +13,10 @@ import (
 	"os"
 	"path"
 	"time"
+
+	"github.com/jay1999ke/test161"
+	"gopkg.in/mgo.v2"
+	yaml "gopkg.in/yaml.v2"
 )
 
 // Environment config
@@ -304,7 +305,7 @@ func getStats(w http.ResponseWriter, r *http.Request) {
 }
 
 func apiUsage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, `<html><body>See <a href="https://github.com/ops-class/test161">the ops-class test161 GitHub page </a> for API and usage</body></html>`)
+	fmt.Fprintf(w, `<html><body>See <a href="https://github.com/jay1999ke/test161">the ops-class test161 GitHub page </a> for API and usage</body></html>`)
 }
 
 type KeygenRequest struct {

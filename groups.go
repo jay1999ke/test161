@@ -3,11 +3,12 @@ package test161
 import (
 	"errors"
 	"fmt"
-	"github.com/bmatcuk/doublestar"
-	"github.com/ops-class/test161/graph"
 	"path"
 	"path/filepath"
 	"strings"
+
+	"github.com/bmatcuk/doublestar"
+	"github.com/jay1999ke/test161/graph"
 )
 
 // GroupConfig specifies how a group of tests should be created and run.

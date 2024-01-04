@@ -4,14 +4,15 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/imdario/mergo"
-	yaml "gopkg.in/yaml.v2"
 	"io/ioutil"
 	"math/rand"
 	"strconv"
 	"strings"
 	"text/template"
 	"time"
+
+	"dario.cat/mergo"
+	yaml "gopkg.in/yaml.v2"
 )
 
 // This file has everything for creating command instances from command templates.

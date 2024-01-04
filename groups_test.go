@@ -1,11 +1,12 @@
 package test161
 
 import (
-	//"github.com/ops-class/test161/graph"
-	"github.com/stretchr/testify/assert"
+	//"github.com/jay1999ke/test161/graph"
 	"path/filepath"
 	"sort"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 const TEST_DIR string = "fixtures/tests/nocycle"

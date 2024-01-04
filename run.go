@@ -12,9 +12,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/kr/pty"
-	"github.com/ops-class/test161/expect"
-	"github.com/termie/go-shutil"
 	"io"
 	"io/ioutil"
 	"os"
@@ -25,6 +22,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/jay1999ke/test161/expect"
+	"github.com/kr/pty"
+	"github.com/termie/go-shutil"
 )
 
 type Test struct {
