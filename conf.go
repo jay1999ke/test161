@@ -4,9 +4,6 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/ericaro/frontmatter"
-	"github.com/imdario/mergo"
-	"github.com/kevinburke/go.uuid"
 	"io/ioutil"
 	"math/rand"
 	"reflect"
@@ -15,6 +12,9 @@ import (
 	"strings"
 	"sync"
 	"text/template"
+
+	"dario.cat/mergo"
+	"github.com/ericaro/frontmatter"
 )
 
 // Many of the values below that come in from YAML are string types. This
