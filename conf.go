@@ -15,6 +15,7 @@ import (
 
 	"dario.cat/mergo"
 	"github.com/ericaro/frontmatter"
+	uuid "github.com/kevinburke/go.uuid"
 )
 
 // Many of the values below that come in from YAML are string types. This
